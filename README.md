@@ -13,7 +13,7 @@ add application under test
 3. use the same config standards to create a code
 
 ### Config module
-some info
+contains some general info/variables that belongs to a framework.
 examples of usages
 How to:
 add config values
