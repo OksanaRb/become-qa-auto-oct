@@ -1,17 +1,17 @@
-import requests
-timeout = 29
+from src.config.config_easy import ConfigEasy
+
 
 def test_api():
-    requests.get(url, timeout=request_timeout)
+    requests.get(url, ConfigEasy.request_timeout)
 
 def test_api():
-    requests.get(url, timeout=request_timeout)
+    requests.get(url, ConfigEasy.request_timeout)
 
 def test_api():
-    requests.get(url, timeout=request_timeout)
+    requests.get(url, ConfigEasy.request_timeout)
 
 def test_api():
-    requests.get(url, timeout=request_timeout)
+    requests.get(url, ConfigEasy.request_timeout)
 
 def test_api():
-    requests.get(url, timeout=request_timeout)
+    requests.get(url, ConfigEasy.request_timeout)
